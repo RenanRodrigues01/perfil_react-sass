@@ -1,10 +1,10 @@
-
+import "../styles/componets/MainContent.sass"
 
 const MainContent = () => {
   return (
-    <div>
-      
-    </div>
+    <main id="main-content">
+
+    </main>
   )
 }
 
