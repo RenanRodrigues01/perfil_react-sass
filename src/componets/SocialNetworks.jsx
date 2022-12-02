@@ -12,7 +12,7 @@ const SocialNetworks = () => {
   return (
    <section id="social-networks">
     {socialNetworks.map((network) => (
-        <a href={network.link} className="social-btn" id={network.name} key={network.name}>
+        <a href={network.link} target='_blank' className="social-btn" id={network.name} key={network.name}>
             {network.icon}
         </a>
     ))}
