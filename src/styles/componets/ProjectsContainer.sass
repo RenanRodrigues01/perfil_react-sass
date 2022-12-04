@@ -10,11 +10,16 @@
         gap: 1.5rem
 
     .project-card
-        @include mixins.center
-        flex-direction: column
         border: 1px solid #333
         border-radius: variables.$card-border-radius
-        padding: 1rem
+        padding: 0.5rem
+        width: 25vw
+
+        a
+            text-decoration: none
+            @include mixins.center
+            flex-direction: column
+
 
         img
             height: auto
@@ -22,6 +27,8 @@
 
         h3
             color: variables.$text-color
+            margin: 1rem
 
-        a
-            padding: 0.7rem 1.2rem
+       
+
+       
