@@ -26,7 +26,6 @@ const TechnologiesContainer = () => {
             {tech.icon}
             <div className="tecnology-info">
               <h3>{tech.name}</h3>
-              <p>Bla bla bla, bla</p>
             </div>
           </div>
         ))}
